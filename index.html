@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alexis Tan</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body>
+    <!-- header -->
+
+    <div class="container-fluid bg-light">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="#"><b>Alexis Tan</b></a>
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarNavAltMarkup"
+                  aria-controls="navbarNavAltMarkup"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                  class="collapse navbar-collapse justify-content-end"
+                  id="navbarNavAltMarkup"
+                >
+                  <div class="navbar-nav">
+                    <a class="nav-link" aria-current="page" href="#intro"
+                      ><b>Home</b></a
+                    >
+                    <a class="nav-link" href="#what-i-do"><b>What I Do</b></a>
+                    <a class="nav-link" href="#portfolio"><b>Portfolio</b></a>
+                    <a class="nav-link" href="#contact"><b>Contact</b></a>
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </div>
+    </div>
+
+    <!-- intro -->
+    <div id="intro">
+      <div class="container-fluid p-5 bg-primary">
+        <div class="container p-5">
+          <!-- intro row -->
+          <div class="row">
+            <!-- column left(image) -->
+            <div class="col-lg-6 pb-4">
+              <div class="image-box">
+                <img
+                  src="./assets/images/avatar.png"
+                  width="100%"
+                  height="auto"
+                  class="rounded-circle"
+                />
+              </div>
+            </div>
+            <!-- column right(text) -->
+            <div
+              class="col-lg-6 d-flex flex-column align-items-center justify-content-center"
+            >
+              <div class="row">
+                <!-- header -->
+                <div class="text-box text-white text-center text-lg-start">
+                  <h1>Hi, I'm Alexis Tan</h1>
+                </div>
+                <!-- subtext -->
+                <div class="text-box text-white fs-5 text-center text-lg-start">
+                  <p>
+                    Full-Stack Developer passionate about creating seamless web
+                    experiences View My Work
+                  </p>
+                </div>
+                <!-- view work button -->
+                <div class="button-box text-center text-lg-start">
+                  <a href="#portfolio" class="btn btn-orange">View My Work</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- What I Do -->
+    <div id="what-i-do">
+      <div class="container py-5">
+        <!-- header for the row -->
+        <div class="row pb-4">
+          <div class="text-box d-flex justify-content-center">
+            <h3><b>What I Do</b></h3>
+          </div>
+        </div>
+        <!-- row for the content -->
+        <div class="row pb-4">
+          <!-- web development -->
+          <div class="col-lg-4 col-md-4 d-flex flex-column align-items-center">
+            <!-- icon -->
+            <div class="icon-box text-info">
+              <h1><i class="bi bi-code-slash"></i></h1>
+            </div>
+            <!-- header -->
+            <div class="text-box">
+              <h4><b>Web Development</b></h4>
+            </div>
+            <!-- subtext -->
+            <div class="text-box text-center">
+              <p>
+                Creating robust and scalable web applications using modern
+                technologies.
+              </p>
+            </div>
+          </div>
+          <!-- responsive design -->
+          <div class="col-lg-4 col-md-4 d-flex flex-column align-items-center">
+            <!-- icon -->
+            <div class="icon-box text-info">
+              <h1><i class="bi bi-laptop"></i></h1>
+            </div>
+            <!-- header -->
+            <div class="text-box">
+              <h4><b> Responsive Design </b></h4>
+            </div>
+            <!-- subtext -->
+            <div class="text-box text-center">
+              <p>
+                Crafting beautiful, responsive interfaces that work on any
+                device.
+              </p>
+            </div>
+          </div>
+          <!-- database management -->
+          <div class="col-lg-4 col-md-4 d-flex flex-column align-items-center">
+            <!-- icon -->
+            <div class="icon-box text-info">
+              <h1>
+                <b> <i class="bi bi-database"></i> </b>
+              </h1>
+            </div>
+            <!-- header -->
+            <div class="text-box text-center">
+              <h4><b> Database Management </b></h4>
+            </div>
+            <!-- subtext -->
+            <div class="text-box text-center">
+              <p>
+                Designing and optimizing database structures for efficient data
+                handling.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- My Portfolio -->
+    <div id="portfolio">
+      <div class="container-fluid bg-light py-5">
+        <div class="container">
+          <!-- header row -->
+          <div class="row pb-4">
+            <div class="text-box d-flex justify-content-center">
+              <h3><b>My Portfolio</b></h3>
+            </div>
+          </div>
+          <!-- content row -->
+          <div class="row pb-5">
+            <!-- column left (big image) -->
+            <div class="col-lg-6 pt-4">
+              <div class="image-box">
+                <img
+                  src="./assets/images/portfolio-1.png"
+                  width="100%"
+                  height="auto"
+                />
+                <!-- overlay -->
+                <div class="overlay d-flex flex-column">
+                    <h3>Project 1</h3>
+                    <p>Short project description</p>
+                    <h3>
+                      <a class="btn btn-light" href="#">View Project</a>
+                      <a class="btn btn-outline-light" href="#">Github</a>
+                    </h3>
+                </div>
+              </div>
+            </div>
+            <!-- column right(image collage) -->
+            <div class="col-lg-6 pt-4">
+              <!-- top row -->
+              <div class="row">
+                <!-- top left image -->
+                <div class="col-lg-6 col-6">
+                  <div class="image-box">
+                    <img
+                      src="./assets/images/portfolio-2.png"
+                      width="100%"
+                      height="auto"
+                    />
+                    <!-- overlay -->
+                <div class="overlay d-flex flex-column">
+                    <h3>Project 2</h3>
+                    <p>Short project description</p>
+                    <h3>
+                      <a class="btn btn-light" href="#">View Project</a>
+                      <a class="btn btn-outline-light" href="#">Github</a>
+                    </h3>
+                </div>
+                  </div>
+                </div>
+                <!-- top right image -->
+                <div class="col-lg-6 col-6">
+                  <div class="image-box">
+                    <img
+                      src="./assets/images/portfolio-3.png"
+                      width="100%"
+                      height="auto"
+                    />
+                    <!-- overlay -->
+                <div class="overlay d-flex flex-column">
+                    <h3>Project 3</h3>
+                    <p>Short project description</p>
+                    <h3>
+                      <a class="btn btn-light" href="#">View Project</a>
+                      <a class="btn btn-outline-light" href="#">Github</a>
+                    </h3>
+                </div>
+                  </div>
+                </div>
+              </div>
+              <!-- bottom row -->
+              <div class="row pt-4">
+                <!-- bottom left image -->
+                <div class="col-lg-6 col-6">
+                  <div class="image-box">
+                    <img
+                      src="./assets/images/portfolio-4.png"
+                      width="100%"
+                      height="auto"
+                    />
+                    <!-- overlay -->
+                <div class="overlay d-flex flex-column">
+                    <h3>Project 4</h3>
+                    <p>Short project description</p>
+                    <h3>
+                      <a class="btn btn-light" href="#">View Project</a>
+                      <a class="btn btn-outline-light" href="#">Github</a>
+                    </h3>
+                </div>
+                  </div>
+                </div>
+                <!-- bottom right image -->
+                <div class="col-lg-6 col-6">
+                  <div class="image-box">
+                    <img
+                      src="./assets/images/portfolio-5.png"
+                      width="100%"
+                      height="auto"
+                    />
+                    <!-- overlay -->
+                <div class="overlay d-flex flex-column">
+                    <h3>Project 5</h3>
+                    <p>Short project description</p>
+                    <h3>
+                      <a class="btn btn-light" href="#">View Project</a>
+                      <a class="btn btn-outline-light" href="#">Github</a>
+                    </h3>
+                </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact -->
+    <div id="contact">
+      <div class="container">
+        <!-- header row -->
+        <div class="row py-5">
+          <div class="text-box d-flex justify-content-center">
+            <h3><b>Get in Touch</b></h3>
+          </div>
+        </div>
+        <!-- content row -->
+        <div class="row pb-5 px-4">
+          <!-- form -->
+          <div class="col-lg-6 px-3">
+            <div class="form">
+              <!-- name -->
+              <div class="row">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  placeholder="Your name"
+                />
+              </div>
+              <!-- email -->
+              <div class="row pt-1">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="Your Email"
+                />
+              </div>
+              <!-- subject -->
+              <div class="row pt-1">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="subject"
+                  placeholder="Subject"
+                />
+              </div>
+              <!-- message -->
+              <div class="row pt-1">
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  rows="4"
+                  placeholder="Your Message"
+                ></textarea>
+              </div>
+              <!-- send button -->
+              <div class="row py-2 d-flex px-0">
+                <div class="button-box d-flex px-0">
+                  <a href="#" class="btn btn-orange">Send Message</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- contact info -->
+          <div class="col-lg-6 px-0 pt-3 p-lg-3">
+            <!-- top row (contact info) -->
+            <div class="row">
+              <div class="col">
+                <!-- header -->
+                <div class="row">
+                  <div class="text-box">
+                    <h4><b>Contact Information</b></h4>
+                  </div>
+                </div>
+                <!-- email -->
+                <div class="row">
+                  <div class="text-box">
+                    <p><i class="bi bi-envelope me-2"></i> alexis@gmail.com</p>
+                  </div>
+                </div>
+                <!-- phone number -->
+                <div class="row">
+                  <div class="text-box">
+                    <p><i class="bi bi-telephone me-2"></i> (6012) 345-6789</p>
+                  </div>
+                </div>
+                <!-- location -->
+                <div class="row">
+                  <div class="text-box">
+                    <p><i class="bi bi-geo-alt me-2"></i> Penang, Malaysia</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- bottom row (follow me) -->
+            <div class="row">
+              <div class="col">
+                <!-- header row -->
+                <div class="row"></div>
+                <!-- socmed row-->
+                <div class="row d-flex flex-row">
+                  <div class="col">
+                    <a href="#" class="btn btn-outline-primary">
+                        <i class="bi bi-github"></i>
+                    </a>
+
+                    <a href="#" class="btn btn-outline-primary">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+
+                    <a href="#" class="btn btn-outline-primary">
+                        <i class="bi bi-twitter"></i></a>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+
+    <div class="container-fluid">
+        <div class="row bg-dark py-3">
+            <!-- trademark -->
+             <div class="text-box text-white d-flex justify-content-center">
+                <p>© 2024 Alexis Tan. All rights reserved.</p>
+             </div>
+        </div>
+    </div>
+
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
